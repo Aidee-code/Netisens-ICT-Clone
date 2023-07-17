@@ -1,0 +1,434 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+}
+
+
+main video{
+    width: 100%;
+    margin: 0;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    position: absolute;
+}
+
+main{
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+
+main .navbar{
+    justify-content: space-between;
+    display: flex;
+    margin-left: 50px;
+    background-color: #3b0089;
+    position: sticky;
+    bottom: 600px;
+    width: 100;
+    height: 100px;
+    margin: 0;
+}
+
+.nav-flex{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.nav-flex a{
+    color: white;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    transition: .5s ease-in-out;
+    padding: 5px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0);
+}
+
+.navbar a:hover{
+    border-bottom: 2px solid white;
+    color: white;
+}
+
+
+#us{
+    text-decoration: underline;
+    color: white;
+}
+
+.learn{
+    padding: 40px;
+}
+
+.navbar img{
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+
+.home{
+    height: 120vh;
+    position: relative;
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
+}
+
+.home h1, .home p,.home button{
+    margin: 40px 0px;
+}
+
+.home h1{
+    text-align: center;
+    color:white;
+    letter-spacing: 4px;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 62px;
+    margin-top: 30px;
+}
+
+
+.text h2{
+    color: #f8b026;
+    text-align: center;
+    bottom: 650px;
+}
+
+.gain p{
+    text-align: center;
+    color: white;
+}
+
+.home button{
+    background-color: orange;
+    border-radius: 30px;
+    width: 15%;
+    height: 50px;
+    border: orange;
+    left: 600px;
+    display: block;
+}
+
+.home button a{
+color: black;
+text-decoration: none;
+}
+
+.ads img{
+    margin-top: -300px;
+    width: 50%;
+    border-radius: 20px;
+    position: relative;
+    left: 350px;
+}
+
+.skills{
+    text-align: center;
+    padding: 30px;
+    font-weight: lighter;
+}
+
+.wrapper{
+    display: flex;
+    text-align: center;
+    padding: 80px;
+    justify-content: space-around;
+}
+
+.text{
+    text-align: center;
+    font-weight: bolder;
+}
+
+.wrapper span{
+    font-size: 80px;
+
+}
+
+marquee{
+    background-color: orange;
+    color: white;
+}
+
+.box{
+    display: flex;
+    padding: 50px;
+    margin: 50px;
+    justify-items: right;
+    justify-content: space-around;
+
+}
+
+.enrol1{
+    background-color: orange;
+    border-radius: 30px;
+    width: 60%;
+    height: 50px;
+    border: orange;
+    display: block;
+    margin-top: 40px;
+}
+
+.enrol1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.boxa{
+    background-color: #2ac4ea;
+    border-radius: 10px;
+    height: calc(50% - 2px);
+    width: calc(100% - 2px);
+    display: block;
+}
+
+.boxa p{
+    padding: 10px;
+    margin-top: 10px;
+    bottom: 20px;
+}
+
+.boxa h4{
+    padding: 10px;
+    text-align: center;
+}
+
+.boxb{
+    background-color: #3b0089;
+    border-radius: 10px;
+    height: calc(50% - 2px);
+    width: calc(100% - 2px);
+    display: block;
+}
+
+.boxb p{
+    padding: 10px;
+    margin-top: 10px;
+    bottom: 20px;
+}
+
+.boxb h4{
+    padding: 10px;
+    text-align: center;
+}
+
+.box h2{
+    margin: 40px;
+font-style: italic;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} 
+.box p{
+    margin: 15px;
+    padding: 3px;
+}
+
+.boxc{
+    background-color: #ff1053;
+    border-radius: 10px;
+    height: calc(70% - 2px);
+    width: calc(100% - 2px);
+    display: block;
+}
+
+.boxc p{
+    padding: 10px;
+    margin-top: 10px;
+    bottom: 20px;
+}
+
+.boxc h4{
+    padding: 10px;
+    text-align: center;
+}
+
+.boxd{
+    background-color: #fbbc05;
+    border-radius: 10px;
+    height: calc(60% - 2px);
+    width: calc(100% - 2px);
+    display: block;
+}
+
+.boxd p{
+    padding: 10px;
+    margin-top: 10px;
+    bottom: 20px;
+}
+
+.boxd h4{
+    padding: 10px;
+    text-align: center;
+}
+
+.boxe{
+    background-color: #2f88d6;
+    border-radius: 10px;
+    height: calc(50% - 2px);
+    width: calc(100% - 2px);
+    display: block;
+}
+
+.boxe p{
+    padding: 10px;
+    margin-top: 10px;
+    bottom: 20px;
+}
+
+.boxe h4{
+    padding: 10px;
+    text-align: center;
+}
+
+.boxf{
+    background-color: #34a853;
+    border-radius: 10px;
+    height: calc(50% - 2px);
+    width: calc(100% - 2px);
+    display: block;
+} 
+
+.boxf p{
+    padding: 10px;
+    margin-top: 10px;
+    bottom: 20px;
+}
+
+.boxf h4{
+    padding: 10px;
+    text-align: center;
+}
+
+.sponsor{
+    display: flex;
+    padding: 50px;
+}
+
+.student{
+    text-align: center;
+    padding-left: 20px;
+}
+
+.fees{
+    position: relative;
+    top: 100px;
+    left: 150px;
+    height: 10px;
+}
+
+.fees img{
+    border-radius: 20px;
+}
+
+.bit img{
+    width: 90%;
+    height: 90%;
+    border-radius: 20px;
+}
+.coll{
+    display: flex;
+    line-height: 40px;
+}
+
+.coll p {
+    background-color: white;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    color: black;
+  }
+  
+  .active, .coll p:hover {
+    color: orange;
+  }
+  
+  hr{
+    width: 400px;
+  }
+
+  .services{
+    display: flex;
+    justify-content: center;
+  }
+
+  .image{
+    width: 90%;
+    /* height: 30px; */
+    border-radius: 90px;
+    margin-left: 300px;
+    margin-top: 50px;
+  } 
+
+  .rebrand {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color: white; 
+    height: 500px;
+    padding: 100px;
+  }
+  .div-2 {
+    display: flex;
+    /* justify-content: space-around; */
+
+    margin-top: 90px;
+  }
+  button{
+    color: black;
+    background-color: orange;
+    border: none;
+    padding: 0.8em 0.7em;
+    border-radius: 18px;
+    
+  }
+
+  .container-1 h2{
+    padding: 50px;
+    font-size: 60px;
+    word-spacing: 6px;
+    font-weight: lighter;
+  }
+
+  .container-1 button{
+    margin-left: 50px;
+  }
+
+  .rebrand .div-2{
+    display: flex;
+    margin-right: 0px;
+  }
+
+  .rebrand .div-2 .list-1{
+    margin-right: 40px;
+  }
+
+  .container-2 p{
+    padding: 50px;
+  }
+
+  footer{
+    background-color: rgb(230, 229, 229);
+    text-align: center;
+    height: 200px;
+    padding-top: 70px;
+    font-size: small;
+  }
